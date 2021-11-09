@@ -39,4 +39,8 @@
     echo "Current Action : ". $currentAction . "<br>";
     // abc
     echo "Hello";
+
+    // New feature
+
+
     call_user_func_array($currentAction, $params);
