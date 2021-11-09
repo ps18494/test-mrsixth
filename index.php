@@ -37,4 +37,5 @@
     //goi ham voi tham so la mang tham so
     echo "Current Controller : ". $currentController . "<br>";
     echo "Current Action : ". $currentAction . "<br>";
+    // abc
     call_user_func_array($currentAction, $params);
