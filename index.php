@@ -38,4 +38,5 @@
     echo "Current Controller : ". $currentController . "<br>";
     echo "Current Action : ". $currentAction . "<br>";
     // abc
+    echo "Hello";
     call_user_func_array($currentAction, $params);
